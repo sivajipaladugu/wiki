@@ -1,0 +1,108 @@
+.search{
+text-align: center;
+padding-top: 20px;
+margin: 0 auto;
+}
+.pic{
+  padding-left: 35%;
+}
+.sub {
+    padding-top: 10px;
+ 
+}
+.random{
+    padding-top: 10px;
+}
+body{
+    background:url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+#wikipedia{
+opacity: 0.1;
+}
+
+
+#ima{
+    width: auto;
+    height: 50%
+}
+#submit:hover, #random:hover {
+  background: rgba(242, 242, 245, 0.95);
+  color: rgb(22, 194, 151);
+}
+input, button {
+  outline: none;
+}
+.content {
+  position: relative;
+  text-align: left;
+  width: 80%;
+  margin: 25px auto;
+  background: rgba(236, 236, 243, 0.95);
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+}
+
+.title {
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 15px;
+  color: rgb(22, 194, 151);
+
+}
+.snippet {
+  font-size: 18px;
+  margin-top: -25px;
+}
+
+.content:hover {
+  background: rgb(255, 110, 64);
+  color: black;
+  cursor: pointer;
+ }
+.content:hover h4 {
+  color: black;
+ }
+ #input {
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  height: 38px;
+  width: 35%;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+#submit {
+  font-size: 18px;
+  border-radius: 4px;
+  background: white;
+  border: none;
+  height: 40px;
+  width: 25%;
+  margin-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#random {
+  font-size: 18px;
+  border-radius: 4px;
+  background: white;
+  border: none;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 30%;
+  cursor: pointer;
+  font-style: italic;
+}
+.ser {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+#soach{
+width:30%;
+height: 40px;
+}
